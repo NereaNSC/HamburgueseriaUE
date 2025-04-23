@@ -1,4 +1,100 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🍔 Hamburguesería UE
+
+**Aplicación web desarrollada como proyecto final del Ciclo Superior de Desarrollo de Aplicaciones Web (DAW) en la Universidad Europea**.
+
+## 🎯 Descripción
+
+HamburgueseríaUE es una aplicación web desarrollada con Laravel que permite a los usuarios explorar el menú de una hamburguesería, registrarse, realizar pedidos y recibir una confirmación para recoger en el local. Al mismo tiempo, el administrador puede gestionar la carta de productos sin necesidad de conocimientos técnicos.
+
+> ⚠️ Proyecto académico aún en desarrollo, con funcionalidades operativas pero mejoras pendientes de diseño y funcionalidades por falta de tiempo.
+
+## ✨ Funcionalidades principales
+
+- Registro e inicio de sesión de usuarios
+- Exploración del menú sin necesidad de registro
+- Gestión de pedidos con carrito y cantidades
+- Panel de administración para CRUD de productos y categorías
+- Sistema de confirmación de pedidos
+
+## 🛠️ Tecnologías utilizadas
+
+### Frontend
+- HTML5, CSS3, Bootstrap
+
+### Backend
+- Laravel (Blade, Eloquent, Composer)
+
+### Base de datos
+- MySQL + PhpMyAdmin (mediante XAMPP)
+
+### Herramientas de trabajo
+- Git & GitHub
+- Jira (metodología Kanban)
+- VS Code
+
+## 📈 Metodología de trabajo
+
+Se utilizó **Kanban** como sistema de gestión de tareas a través de **Jira**, dividiendo tareas por estados: pendiente, en proceso y terminado.
+
+## 📸 Capturas de pantalla
+
+| **Página de inicio**                                                                              | **Carta**                                                                                                    |
+|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| ![Index](https://github.com/NereaNSC/HamburgueseriaUE/blob/main/public/img/00_Index.png?raw=true) | ![Carta](https://github.com/NereaNSC/HamburgueseriaUE/blob/main/public/img/04_Nuestra%20Carta.png?raw=true) |
+
+
+| **Carrito de compra**                                                                                    | **Inicio de sesión**  
+|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| ![Carrito](https://github.com/NereaNSC/HamburgueseriaUE/blob/main/public/img/05_Carrito.png?raw=true) | ![Inicio Sesión](https://github.com/NereaNSC/HamburgueseriaUE/blob/main/public/img/02_Inicio%20Sesion.png?raw=true) |
+
+
+
+
+### 👨‍💼 Panel de administración
+
+|**Crear Categorías**                                                                                                 | **Editar Producto**                                                                                           |
+|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| ![Crear Categorías](https://github.com/NereaNSC/HamburgueseriaUE/blob/main/public/img/10_Admin-Crear-Categorias.png?raw=true) | ![Editar Productos](https://github.com/NereaNSC/HamburgueseriaUE/blob/main/public/img/12_Admin-Editar-Productos.png?raw=true) |
+
+
+
+
+
+## 🚧 Mejoras futuras previstas
+
+- Sistema de valoraciones y comentarios
+- Personalización de productos
+- Pagos en línea
+- Pedidos programados y favoritos
+- Gestión de alérgenos
+- Perfil personal editable por el usuario
+- Versión para reparto a domicilio
+
+## 👥 Equipo
+
+- Nerea Santos Cebrián – Desarrollo y diseño
+- Ángel Daniel Espino 
+
+## 📍 Repositorio
+
+[GitHub - HamburgueseriaUE](https://github.com/NereaNSC/HamburgueseriaUE)
+
+## 📚 Aprendizajes
+
+Este proyecto ha sido clave para aplicar en un entorno real los conocimientos aprendidos en el ciclo DAW, especialmente:
+- CRUDs completos con Laravel
+- Manejo del patrón MVC
+- Gestión de bases de datos relacionales
+- Trabajo colaborativo en remoto con Git
+- Uso de Jira y metodologías ágiles
+- Implementación de interfaces funcionales con Bootstrap y HTML/CSS
+
+---
+
+📢 *Este repositorio representa mi primer proyecto completo como desarrolladora web junior. Estoy abierta a sugerencias y mejoras. ¡Gracias por visitarlo!* 💪
+"""
+
+<!--<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -63,4 +159,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).-->
